@@ -468,9 +468,6 @@ patternProperties:
             reg:
               const: 0x0
 
-            interrupts:
-              const: 0
-
             assigned-resolution-bits:
               enum: [6, 8, 10, 12]
               default: 12
