@@ -56,6 +56,7 @@
 &uart4 {
 	/* Note: HW flow control is broken, hence using custom CTS/RTS gpios */
 	/delete-property/st,hw-flow-ctrl;
+	/delete-property/uart-has-rtscts;
 	cts-gpios = <&gpioa 15 GPIO_ACTIVE_LOW>;
 	rts-gpios = <&gpiob 0 GPIO_ACTIVE_LOW>;
 	/delete-property/dmas;
