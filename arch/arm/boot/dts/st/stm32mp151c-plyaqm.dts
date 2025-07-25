@@ -239,7 +239,6 @@
 
 	i2s1_port: port {
 		i2s1_endpoint: endpoint {
-			format = "i2s";
 			mclk-fs = <256>;
 			remote-endpoint = <&codec_endpoint>;
 		};
